@@ -1,8 +1,26 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --grey: #262626;
+    --light-grey: #a8a8a8;
+    --blue: #0095fe;
+ }
 html,body{
     scroll-behavior: smooth;
-    background-color: #000;
+    background-color: var(--black);
     font-family: "Roboto",-apple-system,BlinkMacSystemFont,'Helvetica Neue', Arial,sans-serif;
     overflow-x: hidden ;
-    color:#fff;
+    color: var(--white);
     display: flex;
+    width: 100vw;
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    left:0;
+    width:15%;
+    height:100vh;
+    background-color: var(--black);
+    color: var(--white);
+    border-right: 1px solid var(--grey);
 }
