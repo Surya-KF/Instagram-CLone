@@ -1,3 +1,8 @@
-.header{
-    color:beige;
+html,body{
+    scroll-behavior: smooth;
+    background-color: #000;
+    font-family: "Roboto",-apple-system,BlinkMacSystemFont,'Helvetica Neue', Arial,sans-serif;
+    overflow-x: hidden ;
+    color:#fff;
+    display: flex;
 }
