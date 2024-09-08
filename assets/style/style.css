@@ -25,6 +25,10 @@ html,body{
     width:15%;
     height:100vh;
     background-color: var(--black);
+    padding: 1rem;
     color: var(--white);
     border-right: 1px solid var(--grey);
+}
+.logo{
+    width: 90px;
 }
