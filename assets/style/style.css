@@ -5,6 +5,7 @@
     --light-grey: #a8a8a8;
     --blue: #0095fe;
  }
+
 html,body{
     scroll-behavior: smooth;
     background-color: var(--black);
@@ -14,6 +15,7 @@ html,body{
     display: flex;
     width: 100vw;
 }
+
 .sidebar{
     position: fixed;
     display:flex;
@@ -22,13 +24,27 @@ html,body{
     justify-content: space-between;
     top:0;
     left:0;
-    width:15%;
+    width:14%;
     height:100vh;
     background-color: var(--black);
     padding: 1rem;
     color: var(--white);
     border-right: 1px solid var(--grey);
 }
+
 .logo{
     width: 90px;
+}
+
+a{
+    text-decoration: none;
+    font-size:0.8rem;
+}
+
+.link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:var(--white);
+    padding: 0.7rem 0rem;
 }
