@@ -1,6 +1,4 @@
-Here's the `README.md` file with everything consolidated:
 
-```markdown
 # Instagram Clone
 
 This is a frontend clone of Instagram, built using HTML, CSS, and JavaScript. The project replicates the basic layout and functionality of Instagram's user interface.
@@ -57,6 +55,3 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-```
-
-This version combines all the sections into a single, concise `README.md` file.
