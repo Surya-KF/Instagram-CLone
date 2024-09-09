@@ -36,6 +36,10 @@ html,body{
     margin: 1rem 0rem;
 }
 
+.logo2{
+    display: none;
+}
+
 a{
     text-decoration: none;
     color:var(--white);
@@ -56,6 +60,22 @@ a{
     padding: 0.7rem 0rem;
 }
 
-.bottom{
+.bottom-section{
+    margin-bottom: 3rem;
+
+}
+
+@media screen and (max-width: 900px) {
+    .logo{
+        display: none;
+    }
+    
+    .sidebar{
+        width: 25px;
+    }
+
+    .link a{
+        display:none;
+    }
 
 }
